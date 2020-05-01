@@ -1,0 +1,5 @@
+petclinic:
+  image: docker-registry.test-praca.com:5000/spring-petclinic:3.1.3-SNAPSHOT
+  container_name: petclinic
+  ports:
+    - "8080:8080"
